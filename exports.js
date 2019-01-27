@@ -126,6 +126,7 @@ module.exports = {
 	    'redshiftPubliclyAccessible'    : require(__dirname + '/plugins/aws/redshift/redshiftPubliclyAccessible.js')
 	},
 	azure : {
+		'customRoles'          			: require(__dirname + '/plugins/azure/storageaccounts/customRoles.js'),
 		'storageAccountsHttps'          : require(__dirname + '/plugins/azure/storageaccounts/storageAccountsHttps.js'),
 		'storageAccountsEncryption'     : require(__dirname + '/plugins/azure/storageaccounts/storageAccountsEncryption.js'),
 		'blobServiceImmutable'          : require(__dirname + '/plugins/azure/blobservice/blobServiceImmutable.js'),
